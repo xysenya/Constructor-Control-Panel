@@ -1,0 +1,1 @@
+pyinstaller --clean --noconfirm --onedir --windowed --icon "icon.ico" --name "ConstructorControlPanel" --collect-all edge_tts main.py

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+build_new/
+dist/
+*.spec
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+debug_log.txt
+
+# Temporary files
+SynthSpeech/
+AudioPanelSounds/
+# Если вы хотите хранить дефолтные звуки в репозитории, закомментируйте AudioPanelSounds/
+# Но если это папка для пользовательских файлов, то лучше игнорировать.
+
+# Inno Setup output
+Output/
